@@ -24,4 +24,11 @@ p {
     display: grid;
     height: 100vh;
     align-content: center;
+
+}
+
+.title {
+    font-size: max(2rem, 6vw);
+    font-weight: 200;
+    /* margin: 10vh 0 0; */
 }
