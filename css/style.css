@@ -23,7 +23,7 @@ body {
 .hero {
   width: 100%;
   height: 59dvw;
-  background-image: url(/images/hero-no-text.png);
+  background-image: url(/images/hrad.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
