@@ -33,6 +33,7 @@ body {
 
 .menu {
   height: 5vw;
+  padding: 0.3em;
   background-color: rgba(255, 255, 255, 0.85);
   width: 100%;
   display: flex;
@@ -52,7 +53,7 @@ body {
   text-align: center;
   color: #525252;
   font-size: max(0.9rem, 1.7vw);
-  padding: 0.2rem 0.5rem;
+  padding: 0.2vw 0.5vw;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 2px #f7e9e9;
 }
@@ -61,20 +62,22 @@ body {
 }
 
 .title {
-  font-size: 7.5vw;
+  font-size: 8vw;
   font-weight: 200;
   margin: 0;
   color: #525252;
   font-family: "Kaushan Script", cursive;
+  line-height: 1.2;
 }
 .title__wrap {
   position: absolute;
   bottom: 0;
-  right: 0;
-  width: 75%;
+  right: 7%;
+  width: 72%;
 }
 .title__right {
-  margin-left: 20%;
+  display: block;
+  text-align: right;
 }
 
 h2 {
@@ -85,18 +88,18 @@ h2 {
 
 @media screen and (min-width: 800px) {
   .wrap {
-    width: 80%;
+    width: 74%;
     margin: auto;
   }
   .menu {
-    width: 80%;
-    left: 10%;
+    width: 74%;
+    left: 13%;
   }
   .hero {
-    height: 47.2dvw;
+    height: 43.66dvw;
   }
   .title {
-    font-size: 6vw;
+    font-size: 5.846vw;
   }
 }
 .pad {
