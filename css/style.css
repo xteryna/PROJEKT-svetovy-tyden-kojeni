@@ -20,6 +20,10 @@ body {
   position: relative;
 }
 
+.center {
+  text-align: center;
+}
+
 .hero {
   margin-top: 5vw;
   width: 100%;
@@ -112,7 +116,7 @@ h2 {
 
 .main-info__images {
   width: 70%;
-  margin: 7vw auto 0;
+  margin: 2vw auto 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10vw;
@@ -126,6 +130,7 @@ h2 {
   gap: 10vw;
   background-color: #f4d0d0;
   padding: 0.5em;
+  margin-block: 5vw;
 }
 
 .lectures {
