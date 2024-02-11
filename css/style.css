@@ -21,6 +21,7 @@ body {
 }
 
 .hero {
+  margin-top: 5vw;
   width: 100%;
   height: 59dvw;
   background-image: url(/images/hrad.png);
@@ -31,7 +32,7 @@ body {
 }
 
 .menu {
-  padding: 0.3em;
+  height: 5vw;
   background-color: rgba(255, 255, 255, 0.85);
   width: 100%;
   display: flex;
@@ -43,6 +44,7 @@ body {
   left: 0;
   margin: auto;
   z-index: 1;
+  align-items: center;
 }
 .menu__item {
   background-color: rgb(255, 255, 255);
@@ -59,7 +61,7 @@ body {
 }
 
 .title {
-  font-size: 6vw;
+  font-size: 7vw;
   font-weight: 200;
   margin: 0;
   color: #525252;
@@ -69,7 +71,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 70%;
+  width: 75%;
 }
 .title__right {
   margin-left: 20%;
@@ -94,7 +96,7 @@ h2 {
     height: 47.2dvw;
   }
   .title {
-    font-size: 4.8vw;
+    font-size: 6vw;
   }
 }
 .pad {
@@ -107,7 +109,7 @@ h2 {
 
 .main-info__images {
   width: 70%;
-  margin: 3vw auto;
+  margin: 7vw auto 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10vw;
