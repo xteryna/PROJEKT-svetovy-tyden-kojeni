@@ -4,9 +4,10 @@ $c-lighter: #f9e8e8;
 $c-extralight: #f7e9e9;
 $c-darker: #e4b3b3;
 $c-dark: #f89090;
+$c-inactive: #b9b9b9;
 
 
-$shadow: 0px 0px 20px 2px $c-extralight;
+$shadow: 0px 0px 10px 2px $c-extralight;
 $border: 1.5px solid $c-primary;
 
 $f-growing-xs: max(0.7rem, 1.4vw);
@@ -172,9 +173,9 @@ h2 {
   gap: 3vw;
   align-items:flex-start;
   
-  border-radius: 5px;
+  border-radius: 10px;
   border: $border;
-  padding: 10px;
+  padding: 3vw;
   background-color: $c-extralight;
   box-shadow: $shadow;
 
@@ -209,11 +210,24 @@ h2 {
   &__checkbox:checked ~ &__box {
     display: block;
   }
+
+  &__checkbox:checked ~ &__toggler {
+    & .visible{
+      color: transparent;
+    }
+    & .invisible{
+      color: $c-dark;
+    }
+  }
   
   &__toggler {
     cursor: pointer;
     display: block;
-    color: red;
+    color: $c-dark;
+
+    & .invisible {
+      color: transparent;
+    }
   }
 
   &__box {
