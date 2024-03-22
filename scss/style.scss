@@ -220,42 +220,48 @@ h2 {
     border: $border;
     opacity: 0.8;
   }
+
   &__text {
     text-align:left;
     display: grid;
     grid-template-columns: 1fr;
     font-size: $f-growing-m;
-    // align-items: center;
     gap: 1vw;
   }
-
-  &__checkbox {
-    position: absolute;
-    left: -9999px;
+  &__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: $f-growing-x;
+    align-self: center;
   }
 
-  &__checkbox:checked ~ &__box {
-    display: block;
-  }
+  &__less {
+    display: none;
+    color: $c-dark;
 
-  &__checkbox:checked ~ &__toggler {
-    & .visible{
-      color: transparent;
+    .open & {
+      display:inline-block;
     }
-    & .invisible{
-      color: $c-dark;
+  }
+
+  &__more {
+    display: inline-block;
+    color: $c-dark;
+
+    .open & {
+      display:none;
+    }
+
+  }
+
+  &__description {
+    display: none;
+
+    .open &{
+      display: block;
     }
   }
   
-  &__toggler {
-    cursor: pointer;
-    display: block;
-    color: $c-dark;
-
-    & .invisible {
-      color: transparent;
-    }
-  }
 
   &__box {
     display: none;
@@ -263,13 +269,11 @@ h2 {
     width: 100%;
   }
 
-  &__title {
-    margin: 0;
-    font-weight: 400;
-    font-size: $f-growing-x;
-  }
 
 }
+
+
+
 
 .footer {
   text-align: center;

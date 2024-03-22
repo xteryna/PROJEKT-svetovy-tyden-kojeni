@@ -179,36 +179,36 @@ h2 {
   font-size: max(1rem, 2vw);
   gap: 1vw;
 }
-.card__checkbox {
-  position: absolute;
-  left: -9999px;
+.card__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: max(1.2rem, 2.5vw);
+  align-self: center;
 }
-.card__checkbox:checked ~ .card__box {
-  display: block;
-}
-.card__checkbox:checked ~ .card__toggler .visible {
-  color: transparent;
-}
-.card__checkbox:checked ~ .card__toggler .invisible {
+.card__less {
+  display: none;
   color: #f89090;
 }
-.card__toggler {
-  cursor: pointer;
-  display: block;
+.open .card__less {
+  display: inline-block;
+}
+.card__more {
+  display: inline-block;
   color: #f89090;
 }
-.card__toggler .invisible {
-  color: transparent;
+.open .card__more {
+  display: none;
+}
+.card__description {
+  display: none;
+}
+.open .card__description {
+  display: block;
 }
 .card__box {
   display: none;
   margin: 0 auto;
   width: 100%;
-}
-.card__title {
-  margin: 0;
-  font-weight: 400;
-  font-size: max(1.2rem, 2.5vw);
 }
 
 .footer {

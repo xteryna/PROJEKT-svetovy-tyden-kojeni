@@ -1,240 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+layout: layouts/main.njk
+---
 
-    <meta name="robots" content="noindex">
+<div class="content">
+    <section class="main-info pad">
+        <h2 class="main-info__title">Přednášky, jarmark, laktační poradentví, jóga, dětský koutek, občerstvení...</h2>
+        <div class="main-info__when">
+            <div class="main-info__date">18. srpna 2024</div>
+            <div class="main-info__hour">9:00 - 17:00</div>
+        </div>
+        <div class="main-info__images">
+            <a class="main-info__link" href="https://hradhnevin.cz/" target="_blank"><img class="main-info__img" src="/images/hnevin-logo.png" alt="logo hradu hněvín"></a>
+            <a class="main-info__link" href="https://kojorady.cz/" target="_blank"><img class="main-info__img" src="/images/kojorady-logo.png" alt="logo projektu kojorady"></a>
+            <a class="main-info__link" href="https://www.mamila.sk/sk/uvod/" target="_blank"><img class="main-info__img" src="/images/Mamila.png" alt="logo Mamila"></a>
+        </div>
+    </section>
 
-    <meta name="title" content="Světový týden kojení na Hněvíně" />
-    <meta name="description" content="{{description}}">
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#ecadad">
-    <link rel="shortcut icon" href="/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#ecadad">
-    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#f4d0d0">
 
-    <title></title>
-    <!-- Primary Meta Tags -->
-	<title>Světový týden kojení na hradě Hněvín, Most</title>
-    <meta name="title" content="Světový týden kojení na hradě Hněvín, Most" />
-    <meta name="description" content="{{description}}">
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="svetovytydenkojeni.cz" />
-    <meta property="og:title" content="Světový týden kojení na hradě Hněvín, Most" />
-    <meta property="og:description" content="{{og-description}}" />
-    <meta property="og:image" content="https://svetovytydenkojeni.cz/images/hero-complete.png"/>
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="svetovytydenkojeni.cz" />
-    <meta property="twitter:title" content="Světový týden kojení na hradě Hněvín, Most" />
-    <meta property="twitter:description" content="{{description}}" />
-    <meta property="twitter:image" content="https://svetovytydenkojeni.cz/images/hero-complete.png"/>
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-
-	
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-    <div class="wrap">
-        <nav class="menu">
-            <a class="menu__item" href="#introduction">Úvod</a>
-            <a class="menu__item" href="#lectures">Přednášející</a>
-            <a class="menu__item" href="#fair">Jarmark</a>
-        </nav>
-        <section class="hero" id="introduction">
-            <div class="title__wrap">
-                <h1 class="title">Světový týden<br>
-                <span class="title__right">kojení na Hněvíně</span></h1>
-            </div>
-        </section>
-        <div class="content">
-            <section class="main-info pad">
-                <h2 class="main-info__title">Přednášky, jarmark, laktační poradentví, jóga, dětský koutek, občerstvení...</h2>
-                <div class="main-info__when">
-                  <div class="main-info__date">18. srpna 2024</div>
-                  <div class="main-info__hour">9:00 - 17:00</div>
-                </div>
-                <div class="main-info__images">
-                    <a class="main-info__link" href="https://hradhnevin.cz/" target="_blank"><img class="main-info__img" src="images/hnevin-logo.png" alt="logo hradu hněvín"></a>
-                    <a class="main-info__link" href="https://kojorady.cz/" target="_blank"><img class="main-info__img" src="images/kojorady-logo.png" alt="logo projektu kojorady"></a>
-                    <a class="main-info__link" href="https://www.mamila.sk/sk/uvod/" target="_blank"><img class="main-info__img" src="images/Mamila.png" alt="logo Mamila"></a>
-                </div>
-            </section>
-
+    
+    <section class="lectures pad" id="lectures">
+        <h2>PŘEDNÁŠEJÍCÍ</h2>
+        <p class="center">Program pro vás chystáme. Sledujte nás pro další info… </p>
 
         
-            
-            
-            <section class="lectures pad" id="lectures">
-                <h2>PŘEDNÁŠEJÍCÍ</h2>
-                <p class="center">Program pro vás chystáme. Sledujte nás pro další info… </p>
-                <!-- <div class="card card--reverted">
-                    <div class="card__image">
-                        <img class="card__img" src="images/andrea.jpeg" alt="fyzioterapeutka Simona Štádlerová">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Fyzioterapeutka Simona Štádlerová</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox1">
-                        <label for="card-checkbox1" class="card__toggler"><span class="visible">♡ více o mne...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                            Jsem registrovaný fyzioterapeut s osvědčením k výkonu zdravotnického povolání bez odborného dohledu v oboru fyzioterapie. 
-                            Nosím barefoot, nesedím na židli a miluju černý kafe.<br>
-                            Těším se na Vás s přednáškou - psychomotorický vývoj dítěte.
-                        </div>
+        
+        
+        {% for prednasejici in collections.prednasky %}
+            <div class="card card--reverted">
+                <div class="card__image">
+                    <img class="card__img" src="/images/{{prednasejici.data.foto}}" alt="{{prednasejici.data.name}}">
+                </div>
+                <div class="card__text">
+                    <h3 class="card__title">{{prednasejici.data.name}}</h3>
+                    <div class="card__toggler"><span class="card__more">♡ více o mne...</span><span class="card__less">...méně</span> </div>
+                    <div class="card__description">
+                        {{prednasejici. content|safe}}
                     </div>
                 </div>
+            </div>
+        {% endfor %}
+        
+        
+        
+    </section>
 
-                <div class="card  card--reverted">
-                    <div class="card__image">
-                        <img class="card__img" src="images/petra.jpeg" alt="Lektorky nošení dětí Kate Julie Jarischová a Barbora Tučková">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Lektorky nošení dětí Kate Julie Jarischová a Barbora Tučková</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox2">
-                        <label for="card-checkbox2" class="card__toggler"><span class="visible">♡ více o nás...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                            Jsme dvě mamky, co už několik let vedou fb skupinku Nosíme děti v Mostě a okolí.
-                            Barča je šátkovací jednička a všehoschopná reparátorka vytažených nitek.
-                            Kate zase vždy empatická organizátorka srazů, SWAPů a vlastně všeho.
-                            Do šátků a nosítek už jsme přemluvily nespočet mláďat a jsme ready říct i tobě, jak na to.
-                        </div>
+
+    <section class="fair pad" id="fair">
+        <h2>JARMARK</h2>
+
+        <p class="center">Seznam všech stánků vám brzy představíme. Sledujte nás, ať vám nic neunikne…</p>
+
+
+        {% for prodavajici in collections.jarmark %}
+            <div class="card">
+                <div class="card__image">
+                    <img class="card__img" src="/images/{{prodavajici.data.foto}}" alt="{{prodavajici.data.name}}">
+                </div>
+                <div class="card__text">
+                    <h3 class="card__title">{{prodavajici.data.name}}</h3>
+                    <div class="card__toggler"><span class="card__more">♡ více o mne...</span><span class="card__less">...méně</span> </div>
+                    <div class="card__description">
+                        {{prodavajici. content|safe}}
                     </div>
                 </div>
+            </div>
+        {% endfor %}
 
-                <div class="card card--reverted">
-                    <div class="card__image">
-                        <img class="card__img" src="images/andrea.jpeg" alt="Zubařka MDDr. Barbora Neumannová">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Zubařka MDDr. Barbora Neumannová</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox3">
-                        <label for="card-checkbox3" class="card__toggler"><span class="visible">♡ více o mne...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                           xxx
-                        </div>
-                    </div>
-                </div>
-                <div class="card card--reverted">
-                    <div class="card__image">
-                        <img class="card__img" src="images/petra.jpeg" alt="Jogínky Michaela Kasalová a Alena Ulrychová">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Jogínky Michaela Kasalová a Alena Ulrychová</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox4">
-                        <label for="card-checkbox4" class="card__toggler"><span class="visible">♡ více o nás...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                            xxx
-                        </div>
-                    </div>
-                </div>
-                <div class="card card--reverted">
-                    <div class="card__image">
-                        <img class="card__img" src="images/petra.jpeg" alt="Instruktorka psychomotorického vývoje dítěte">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Instruktorka psychomotorického vývoje dítěte Bára Poprovská nebo Šárka</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox5">
-                        <label for="card-checkbox5" class="card__toggler"><span class="visible">♡ více o mne...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                            xxx
-                        </div>
-                    </div>
-                </div>
-                <div class="card card--reverted">
-                    <div class="card__image">
-                        <img class="card__img" src="images/petra.jpeg" alt="Porodní asistentka Veronika nebo Kateřina a dula Táňa Roncová">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Porodní asistentka Veronika nebo Kateřina a dula Táňa Roncová</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox6">
-                        <label for="card-checkbox6" class="card__toggler"><span class="visible">♡ více o nás...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                            xxx
-                        </div>
-                    </div>
-                </div>
-                <div class="card card--reverted">
-                    <div class="card__image">
-                        <img class="card__img" src="images/petra.jpeg" alt="Jana Mašková Zimulová">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Jana Mašková Zimulová</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox7">
-                        <label for="card-checkbox7" class="card__toggler"><span class="visible">♡ více o mne...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                            xxx
-                        </div>
-                    </div>
-                </div>
-                <div class="card card--reverted">
-                    <div class="card__image">
-                        <img class="card__img" src="images/petra.jpeg" alt="Psycholog">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Psycholog</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox8">
-                        <label for="card-checkbox8" class="card__toggler"><span class="visible">♡ více o mne...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                            xxx
-                        </div>
-                    </div>
-                </div> -->
-            </section>
+    </section>
+</div>
 
-
-            <section class="fair pad" id="fair">
-                <h2>JARMARK</h2>
-
-                <p class="center">Seznam všech stánků vám brzy představíme. Sledujte nás, ať vám nic neunikne…</p>
-                <!-- <div class="card">
-                    <div class="card__image">
-                        <img class="card__img" src="images/petra.jpeg" alt="pernicky">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Voňavé perníčky</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox9">
-                        <label for="card-checkbox9" class="card__toggler card__toggler--reverse"><span class="visible">♡ více o mne...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                            xxx
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__image">
-                        <img class="card__img" src="images/petra.jpeg" alt="Psycholog">
-                    </div>
-                    <div class="card__text">
-                        <h3 class="card__title">Šijeme s láskou</h3>
-                        <input type="checkbox" class="card__checkbox" id="card-checkbox10">
-                        <label for="card-checkbox10" class="card__toggler card__toggler--reverse"><span class="visible">♡ více o mne...</span><span class="invisible">...méně</span></label>
-                        <div class="card__box">
-                            xxx
-                        </div>
-                    </div>
-                </div> -->
-            </section>
-        </div>
-
-        <section class="footer">
-            Copyright: Tereza Beránková 2024
-        </section>
-
-    </div>
-
-</body>
-</html>
+        
