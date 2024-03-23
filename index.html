@@ -24,13 +24,10 @@ layout: layouts/main.njk
         <h2>PŘEDNÁŠEJÍCÍ</h2>
         <p class="center">Program pro vás chystáme. Sledujte nás pro další info… </p>
 
-        
-        
-        
         {% for prednasejici in collections.prednasky %}
             <div class="card card--reverted">
                 <div class="card__image">
-                    <img class="card__img" src="/images/{{prednasejici.data.foto}}" alt="{{prednasejici.data.name}}">
+                    <img class="card__img" src="/images/uploads/{{prednasejici.data.foto}}" alt="{{prednasejici.data.name}}">
                 </div>
                 <div class="card__text">
                     <h3 class="card__title">{{prednasejici.data.name}}</h3>
@@ -41,9 +38,7 @@ layout: layouts/main.njk
                 </div>
             </div>
         {% endfor %}
-        
-        
-        
+
     </section>
 
 
@@ -56,7 +51,7 @@ layout: layouts/main.njk
         {% for prodavajici in collections.jarmark %}
             <div class="card">
                 <div class="card__image">
-                    <img class="card__img" src="/images/{{prodavajici.data.foto}}" alt="{{prodavajici.data.name}}">
+                    <img class="card__img" src="/images/uploads/{{prodavajici.data.foto}}" alt="{{prodavajici.data.name}}">
                 </div>
                 <div class="card__text">
                     <h3 class="card__title">{{prodavajici.data.name}}</h3>
