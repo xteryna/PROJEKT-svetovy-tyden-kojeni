@@ -27,10 +27,10 @@ layout: layouts/main.njk
         {% for prednasejici in collections.prednasky %}
             <div class="card card--reverted">
                 <div class="card__image">
-                    <img class="card__img" src="{{prednasejici.data.foto}}" alt="{{prednasejici.data.name}}">
+                    <img class="card__img" src="{{prednasejici.data.foto}}" alt="{{prednasejici.data.title}}">
                 </div>
                 <div class="card__text">
-                    <h3 class="card__title">{{prednasejici.data.name}}</h3>
+                    <h3 class="card__title">{{prednasejici.data.title}}</h3>
                     <div class="card__toggler"><span class="card__more">♡ více o mne...</span><span class="card__less">...méně</span> </div>
                     <div class="card__description">
                         {{prednasejici. content|safe}}
@@ -51,10 +51,10 @@ layout: layouts/main.njk
         {% for prodavajici in collections.jarmark %}
             <div class="card">
                 <div class="card__image">
-                    <img class="card__img" src="{{prodavajici.data.foto}}" alt="{{prodavajici.data.name}}">
+                    <img class="card__img" src="{{prodavajici.data.foto}}" alt="{{prodavajici.data.title}}">
                 </div>
                 <div class="card__text">
-                    <h3 class="card__title">{{prodavajici.data.name}}</h3>
+                    <h3 class="card__title">{{prodavajici.data.title}}</h3>
                     <div class="card__toggler"><span class="card__more">♡ více o mne...</span><span class="card__less">...méně</span> </div>
                     <div class="card__description">
                         {{prodavajici. content|safe}}

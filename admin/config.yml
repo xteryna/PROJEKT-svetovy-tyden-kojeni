@@ -13,7 +13,7 @@ collections:
     create: true # Uživatel může přidávat nové stránky/příspěvky (nebo false, pokud nemůže)
     slug: "{{slug}}" # Šablona jmen souborů, např. YYYY-MM-DD-title.md
     fields: # Pole, která budeme editovat. Obvykle data uložená ve front matter
-      - {label: "Přednášející", name: "name", widget: "string"}
+      - {label: "Přednášející", name: "title", widget: "string"}
       - {label: "Fotografie", name: "foto", widget: "image"}
       - {label: "Tagy", name: "tags", widget: "hidden", default: "prednasky"}
       - {label: "Obsah", name: "body", widget: "markdown"}
@@ -24,7 +24,7 @@ collections:
     create: true # Uživatel může přidávat nové stránky/příspěvky (nebo false, pokud nemůže)
     slug: "{{slug}}" # Šablona jmen souborů, např. YYYY-MM-DD-title.md
     fields: # Pole, která budeme editovat. Obvykle data uložená ve front matter
-      - {label: "Prodávající", name: "name", widget: "string"}
+      - {label: "Prodávající", name: "title", widget: "string"}
       - {label: "Fotografie", name: "foto", widget: "image"}
       - {label: "Tagy", name: "tags", widget: "hidden", default: "jarmark"}
       - {label: "Obsah", name: "body", widget: "markdown"}
