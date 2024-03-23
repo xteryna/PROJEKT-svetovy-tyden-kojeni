@@ -1,5 +1,5 @@
 ---
 name: maminka Tereza Beránkoví
-foto: /images/uploads/andrea.jpeg
+foto: /images/uploads/img_8478.jpg
 ---
 test test test test test
