@@ -117,6 +117,25 @@ h2 {
   border-top: 1.5px solid #f4d0d0;
 }
 
+.btn {
+  display: block;
+  align-self: center;
+  width: 10em;
+  margin: 0 auto 2em;
+  text-align: center;
+  cursor: pointer;
+  font-family: Arial, serif;
+  font-size: 24px;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: rgb(244, 204, 204);
+  border-radius: 6px;
+  color: #525252;
+}
+.btn:hover {
+  background-color: #e4b3b3;
+}
+
 .main-info__images {
   width: 70%;
   margin: 2vw auto 0;
@@ -143,6 +162,7 @@ h2 {
   background-color: #f4d0d0;
   padding: 0.5em;
   margin-block: 5vw;
+  border-radius: 6px;
 }
 
 .lectures {
@@ -171,6 +191,7 @@ h2 {
   border-radius: 50%;
   border: 1.5px solid #f4d0d0;
   opacity: 0.8;
+  aspect-ratio: 1/1;
 }
 .card__text {
   text-align: left;

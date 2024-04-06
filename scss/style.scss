@@ -156,6 +156,26 @@ h2 {
   border-top: $border;
 }
 
+.btn {
+  display: block;
+  align-self: center;
+  width: 10em;
+  margin: 0 auto 2em;
+  text-align: center;
+  cursor: pointer;
+  font-family: Arial, serif;
+  font-size: 24px;
+  // font-weight: bold;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: rgb(244, 204, 204);
+  border-radius: 6px;
+  color: $c-secondary;
+
+  &:hover { 
+    background-color: $c-darker;
+    }
+}
 .main-info {
 
   &__images {
@@ -187,6 +207,7 @@ h2 {
     background-color: $c-primary;
     padding: 0.5em;
     margin-block: 5vw;
+    border-radius: 6px;
   }
 }
 

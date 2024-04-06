@@ -1,5 +1,6 @@
 ---
 layout: layouts/main.njk
+descripton: xxx
 ---
 
 <div class="content">
@@ -9,6 +10,9 @@ layout: layouts/main.njk
             <div class="main-info__date">18. srpna 2024</div>
             <div class="main-info__hour">9:00 - 17:00</div>
         </div>
+        
+        <a class="btn" href="https://form.simpleshop.cz/BRNr7/">Vstupenky zde</a>
+
         <div class="main-info__images">
             <a class="main-info__link" href="https://hradhnevin.cz/" target="_blank"><img class="main-info__img" src="/images/hnevin-logo.png" alt="logo hradu hněvín"></a>
             <a class="main-info__link" href="https://kojorady.cz/" target="_blank"><img class="main-info__img" src="/images/kojorady-logo.png" alt="logo projektu kojorady"></a>
@@ -31,7 +35,7 @@ layout: layouts/main.njk
                 </div>
                 <div class="card__text">
                     <h3 class="card__title">{{prednasejici.data.title}}</h3>
-                    <div class="card__toggler"><span class="card__more">♡ více o mne...</span><span class="card__less">...méně</span> </div>
+                    <div class="card__toggler"><span class="card__more">♡ zobrazit více...</span><span class="card__less">...zobrazit méně</span> </div>
                     <div class="card__description">
                         {{prednasejici. content|safe}}
                     </div>
@@ -55,7 +59,7 @@ layout: layouts/main.njk
                 </div>
                 <div class="card__text">
                     <h3 class="card__title">{{prodavajici.data.title}}</h3>
-                    <div class="card__toggler"><span class="card__more">♡ více o mne...</span><span class="card__less">...méně</span> </div>
+                    <div class="card__toggler"><span class="card__more">♡ zobrazit více...</span><span class="card__less">...zobrazit méně</span> </div>
                     <div class="card__description">
                         {{prodavajici. content|safe}}
                     </div>
@@ -64,6 +68,9 @@ layout: layouts/main.njk
         {% endfor %}
 
     </section>
+
+    <a class="btn" href="https://form.simpleshop.cz/BRNr7/">Vstupenky zde</a>
+
 </div>
 
         
