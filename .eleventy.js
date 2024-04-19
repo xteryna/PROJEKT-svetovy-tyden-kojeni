@@ -14,6 +14,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicons");
   eleventyConfig.addPassthroughCopy("admin");
 
+
+
   return {
     // možné formáty šablon
     templateFormats: ["njk", "html", "md", "liquid"],
