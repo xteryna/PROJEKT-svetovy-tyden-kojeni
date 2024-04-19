@@ -28,7 +28,7 @@ description: Oslava kojení s přednáškami a jarmarkem na hradě Hněvín. Lak
         <h2>PŘEDNÁŠEJÍCÍ</h2>
         <p class="center">Program pro vás chystáme. Sledujte nás pro další info… </p>
 
-        {% for prednasejici in collections.prednasky|reverse %}
+        {% for prednasejici in collections.prednasky %}
             <div class="card card--reverted">
                 <div class="card__image">
                     <img class="card__img" src="{{prednasejici.data.foto}}" alt="{{prednasejici.data.title}}">
