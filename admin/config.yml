@@ -17,6 +17,7 @@ collections:
       - {label: "Fotografie", name: "foto", widget: "image"}
       - {label: "Tagy", name: "tags", widget: "hidden", default: "prednasky"}
       - {label: "Obsah", name: "body", widget: "markdown"}
+      - {label: "Datum", name: "date", widget: "datetime"}
 
   - name: "jarmark" # Jaká bude cesta ke kolekci v administraci,např. /admin/collections/novinky
     label: "Jarmark" # Jak se kolekce jmenuje v UI administrace
@@ -28,4 +29,5 @@ collections:
       - {label: "Fotografie", name: "foto", widget: "image"}
       - {label: "Tagy", name: "tags", widget: "hidden", default: "jarmark"}
       - {label: "Obsah", name: "body", widget: "markdown"}
+      - {label: "Datum", name: "date", widget: "datetime"}
 
