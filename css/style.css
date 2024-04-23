@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -11,7 +12,7 @@ body {
   color: #525252;
   font-weight: 300;
   margin: 0px;
-  font-size: max(1rem, 2vw);
+  font-size: max(1rem, 1.6vw);
 }
 
 .wrap {
@@ -56,7 +57,7 @@ body {
   text-decoration: none;
   text-align: center;
   color: #525252;
-  font-size: max(0.9rem, 1.7vw);
+  font-size: max(0.9rem, 1.36vw);
   padding: 0.2vw 0.5vw;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 2px #f7e9e9;
@@ -89,24 +90,27 @@ body {
 
 h2 {
   font-weight: 300;
-  font-size: max(1.5rem, 3vw);
+  font-size: max(1.5rem, 2.4vw);
   text-align: center;
 }
 
 @media screen and (min-width: 800px) {
   .wrap {
-    width: 74%;
+    width: 60%;
     margin: auto;
   }
   .menu {
-    width: 74%;
-    left: 13%;
+    width: 60%;
+    left: 20%;
   }
   .hero {
-    height: 43.66dvw;
+    height: 35.4dvw;
   }
   .title {
-    font-size: 5.846vw;
+    font-size: 4.74vw;
+  }
+  ¨ .card {
+    padding: 2vw;
   }
 }
 .pad {
@@ -136,6 +140,12 @@ h2 {
   background-color: #e4b3b3;
 }
 
+.main-info__cite {
+  font-weight: 300;
+  font-size: max(1.2rem, 2vw);
+  text-align: center;
+  margin-top: 1vw;
+}
 .main-info__images {
   width: 70%;
   margin: 2vw auto 0;
@@ -161,7 +171,7 @@ h2 {
   gap: 10vw;
   background-color: #f4d0d0;
   padding: 0.5em;
-  margin-block: 5vw;
+  margin-block: 3vw;
   border-radius: 6px;
 }
 
@@ -181,7 +191,7 @@ h2 {
   box-shadow: 0px 0px 10px 2px #f7e9e9;
 }
 .card + .card {
-  margin-top: 5vw;
+  margin-top: 4vw;
 }
 .card--reverted {
   background-color: white;
@@ -197,13 +207,13 @@ h2 {
   text-align: left;
   display: grid;
   grid-template-columns: 1fr;
-  font-size: max(1rem, 2vw);
+  font-size: max(1rem, 1.6vw);
   gap: 1vw;
 }
 .card__title {
   margin: 0;
   font-weight: 400;
-  font-size: max(1.2rem, 2.5vw);
+  font-size: max(1.2rem, 2vw);
   align-self: center;
 }
 .card__less {
@@ -226,6 +236,9 @@ h2 {
 .open .card__description {
   display: block;
 }
+.card p {
+  margin-block: 0;
+}
 .card__box {
   display: none;
   margin: 0 auto;
@@ -234,6 +247,6 @@ h2 {
 
 .footer {
   text-align: center;
-  font-size: max(0.9rem, 1.7vw);
+  font-size: max(0.9rem, 1.36vw);
   padding: 5px;
 }/*# sourceMappingURL=style.css.map */

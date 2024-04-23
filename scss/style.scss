@@ -11,12 +11,12 @@ $c-inactive: #b9b9b9;
 $shadow: 0px 0px 10px 2px $c-extralight;
 $border: 1.5px solid $c-primary;
 
-$f-growing-xs: max(0.7rem, 1.4vw);
-$f-growing-s: max(0.9rem, 1.7vw);
-$f-growing-m: max(1rem, 2vw);
-$f-growing-x: max(1.2rem, 2.5vw);
-$f-growing-l: max(1.5rem, 3vw);
-$f-growing-xl: max(2rem, 5vw);
+$f-growing-xs: max(0.7rem, 1.1vw);
+$f-growing-s: max(0.9rem, 1.36vw);
+$f-growing-m: max(1rem, 1.6vw);
+$f-growing-x: max(1.2rem, 2vw);
+$f-growing-l: max(1.5rem, 2.4vw);
+$f-growing-xl: max(2rem, 4vw);
 
 $pic-growing-l: max(300px,20vw);
 $pic-growing-s: clamp(100px,20vw, 200px);
@@ -129,21 +129,25 @@ h2 {
 }
 @media screen and (min-width:$m-PC) {
   .wrap {
-    width: 74%;
+    width: 60%;
     margin: auto;
   }
 
   .menu {
-    width: 74%;
-    left: 13%;
+    width: 60%;
+    left: 20%;
   }
 
   .hero {
-    height: calc(59dvw * 0.74);
+    height: calc(59dvw * 0.6);
   }
 
   .title {
-    font-size: calc(7.9vw * 0.74);
+    font-size: calc(7.9vw * 0.6);
+  }¨
+
+  .card {
+    padding:2vw
   }
 }
 
@@ -177,7 +181,12 @@ h2 {
     }
 }
 .main-info {
-
+  &__cite {
+    font-weight: 300;
+    font-size: $f-growing-x;
+    text-align: center;
+    margin-top: 1vw;
+  }
   &__images {
     width: 70%;
     margin: 2vw auto 0;
@@ -206,7 +215,7 @@ h2 {
     gap: 10vw;
     background-color: $c-primary;
     padding: 0.5em;
-    margin-block: 5vw;
+    margin-block: 3vw;
     border-radius: 6px;
   }
 }
@@ -228,7 +237,7 @@ h2 {
   box-shadow: $shadow;
 
   &+& {
-    margin-top: 5vw;
+    margin-top: 4vw;
   }
 
   &--reverted {
@@ -282,6 +291,10 @@ h2 {
     .open &{
       display: block;
     }
+  }
+
+  & p {
+    margin-block: 0;
   }
   
 
