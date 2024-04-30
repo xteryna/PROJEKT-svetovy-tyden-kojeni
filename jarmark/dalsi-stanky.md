@@ -1,9 +1,11 @@
 ---
-title: Další stánky...
-foto: /images/uploads/whatsapp-image-2024-01-29-at-11.58.36-1-.jpeg
+title: "Poradna pro nosící "
+foto: /images/uploads/nosi-me.jpg
 tags: jarmark
 date: 2024-04-24T12:21:00.000Z
 ---
-Každý týden vám představíme další účastníka jarmarku 
+Jsme adminky nejlepší regio skupiny u nás a vezeme s sebou celý depozitář!
 
-Tak nás sdílej a sleduj a kojení oslavuj.
+Naučíme tě poznat vhodné nosící pomůcky od nevhodných.
+
+Šátky, nosítka i oblečení si u nás navíc můžeš vyzkoušet nebo ti rády pomůžeme s nastavením tvých vlastních 🌸
