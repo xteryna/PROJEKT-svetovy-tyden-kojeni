@@ -1,9 +1,9 @@
 ---
-title: Další hosté...
-foto: /images/uploads/whatsapp-image-2024-01-29-at-11.58.36-1-.jpeg
+title: "Handling - manipulace s miminky "
+foto: /images/uploads/handling-.jpeg
 tags: prednasky
 date: 2024-05-03T19:38:00.000Z
 ---
-Každý týden Vám představíme jednoho hosta, na kterého se můžete těšit. 
+Jsem Bára. Maminka pětileté ďablice, díky které jsem se dostala k tomu, co mě skutečně baví a naplňuje. Jsem certifikovanou lektorkou vaničkování - starám se o správnou manipulaci, relaxaci miminka. Jsem lektorkou plavání - učíme děti milovat vodu. Jsem lektorkou cvičení pro děti - vedeme děti k lásce z pohybu. Ještě něco? Ale jo…. Masáže miminek? Nejlepší, co můžete dělat s miminkem, naučím, provedu a ukážu.
 
-Tak nás sdílej a sleduj a kojení oslavuj.
+[www.aquababymost.cz](https://www.aquababymost.cz)
