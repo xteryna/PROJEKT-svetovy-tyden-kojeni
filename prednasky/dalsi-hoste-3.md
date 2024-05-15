@@ -1,9 +1,13 @@
 ---
-title: Další hosté...
-foto: /images/uploads/whatsapp-image-2024-01-29-at-11.58.36-1-.jpeg
+title: "Psychomotorický vývoj miminka - Bc. Simona Štádlerová "
+foto: /images/uploads/img20240216094710.jpg
 tags: prednasky
 date: 2024-05-08T10:01:00.000Z
 ---
-Každý týden Vám představíme jednoho hosta, na kterého se můžete těšit.
+Kdo jsem?  
 
-Tak nás sdílej a sleduj a kojení oslavuj.
+Jsem v první řadě máma jedný skvělý bytosti, jejíž pohyb mě přivedl k dětské rehabilitaci.
+
+No a pak jsem taky neustále se vzdělávající, lidským tělem a pohybem fascinovaná fyzioterapeutka se zaměřením na všechny od narození do stáří.
+
+Miluji souvislosti a pátrání po příčinách důsledků. Jsem taky přehnaně kreativní a proto mám ráda termíny 😉
