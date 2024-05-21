@@ -245,6 +245,22 @@ h2 {
   width: 100%;
 }
 
+.additional-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.additional-info__item {
+  text-decoration: none;
+  color: #525252;
+  font-size: max(0.9rem, 1.36vw);
+  color: #e4b3b3;
+}
+.additional-info__img {
+  width: 90px;
+}
+
 .footer {
   text-align: center;
   font-size: max(0.9rem, 1.36vw);

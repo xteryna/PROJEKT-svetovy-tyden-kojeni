@@ -307,7 +307,24 @@ h2 {
 
 }
 
-
+.additional-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__item {
+    text-decoration: none;
+    color: $c-secondary;
+    font-size: $f-growing-s;
+    color: $c-darker
+  }
+  &__img{
+    width: 90px;
+  }
+  // h2{
+  //   margin-bottom: 0;
+  // }
+}
 
 
 .footer {
