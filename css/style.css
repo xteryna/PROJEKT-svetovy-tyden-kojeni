@@ -125,7 +125,7 @@ h2 {
   display: block;
   align-self: center;
   width: 10em;
-  margin: 0 auto 2em;
+  margin: 2em auto 2em;
   text-align: center;
   cursor: pointer;
   font-family: Arial, serif;
@@ -148,7 +148,7 @@ h2 {
 }
 .main-info__images {
   width: 70%;
-  margin: 2vw auto 0;
+  margin: 2em auto 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10vw;
@@ -255,7 +255,7 @@ h2 {
   text-decoration: none;
   color: #525252;
   font-size: max(0.9rem, 1.36vw);
-  color: #e4b3b3;
+  color: #f89090;
 }
 .additional-info__img {
   width: 90px;

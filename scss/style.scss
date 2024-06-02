@@ -164,7 +164,7 @@ h2 {
   display: block;
   align-self: center;
   width: 10em;
-  margin: 0 auto 2em;
+  margin: 2em auto 2em;
   text-align: center;
   cursor: pointer;
   font-family: Arial, serif;
@@ -189,7 +189,7 @@ h2 {
   }
   &__images {
     width: 70%;
-    margin: 2vw auto 0;
+    margin: 2em auto 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10vw;
@@ -316,14 +316,11 @@ h2 {
     text-decoration: none;
     color: $c-secondary;
     font-size: $f-growing-s;
-    color: $c-darker
+    color: $c-dark
   }
   &__img{
     width: 90px;
   }
-  // h2{
-  //   margin-bottom: 0;
-  // }
 }
 
 
