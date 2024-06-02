@@ -11,3 +11,5 @@ Jsem v první řadě máma jedný skvělý bytosti, jejíž pohyb mě přivedl k
 No a pak jsem taky neustále se vzdělávající, lidským tělem a pohybem fascinovaná fyzioterapeutka se zaměřením na všechny od narození do stáří.
 
 Miluji souvislosti a pátrání po příčinách důsledků. Jsem taky přehnaně kreativní a proto mám ráda termíny 😉
+
+[www.fyzioterapiestadlerova.cz](www.fyzioterapiestadlerova.cz)
