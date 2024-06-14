@@ -271,8 +271,8 @@ h2, .text-bigger {
 }
 
 .icon {
-  width: max(40px, 5vw);
-  height: max(40px, 5vw);
+  width: max(30px, 5vw);
+  height: max(30px, 5vw);
   justify-self: center;
   flex-grow: 0;
   display: block;
