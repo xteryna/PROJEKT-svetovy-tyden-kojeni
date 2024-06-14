@@ -1,5 +1,5 @@
 ---
-title: Jožánek - kojicí a nosicí oblečení
+title: Jožánek - Kojicí a nosicí oblečení
 foto: /images/uploads/joz-a-nek.jpg
 tags: jarmark
 date: 2024-05-03T20:00:00.000Z
