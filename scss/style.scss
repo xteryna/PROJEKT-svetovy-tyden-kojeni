@@ -8,6 +8,7 @@ $c-inactive: #b9b9b9;
 
 
 
+
 $shadow: 0px 0px 10px 2px $c-extralight;
 $border: 1.5px solid $c-primary;
 
@@ -122,11 +123,14 @@ body {
   }
 }
 
-h2 {
+h2, .text-bigger {
   font-weight: 300;
   font-size: $f-growing-l;
   text-align: center;
 }
+
+
+
 @media screen and (min-width:$m-PC) {
   .wrap {
     width: 60%;
@@ -156,7 +160,8 @@ h2 {
   padding: 2vw 7vw;
 }
 
-.content section+ section{
+
+.fair, .lectures{
   border-top: $border;
 }
 
@@ -323,6 +328,24 @@ h2 {
   }
   &__img{
     width: 90px;
+  }
+  &__social-media{
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.icon {
+  width: max(40px, 5vw);
+  height: max(40px, 5vw);
+  justify-self: center;
+  flex-grow: 0;
+  display: block;
+  color: $c-dark;
+  
+  &:hover {
+    background-color: $c-extralight;
+    border-radius: 0.5vw;
   }
 }
 
