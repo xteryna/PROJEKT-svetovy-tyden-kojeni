@@ -1,5 +1,5 @@
 ---
-title: "Lapiffero - minerály "
+title: "Lapiffero - Minerály "
 foto: /images/uploads/lafierro-.jpg
 tags: jarmark
 date: 2024-07-01T13:48:00.000Z
