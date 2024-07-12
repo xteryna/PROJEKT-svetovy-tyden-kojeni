@@ -333,6 +333,18 @@ h2, .text-bigger {
     display: flex;
     gap: 1rem;
   }
+
+}
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3vw;
+  justify-content: center;
+
+  &__img{
+    max-width: 150px;
+  }
 }
 
 .icon {

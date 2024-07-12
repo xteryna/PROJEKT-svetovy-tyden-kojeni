@@ -270,6 +270,17 @@ h2, .text-bigger {
   gap: 1rem;
 }
 
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3vw;
+  justify-content: center;
+}
+.partners__img {
+  max-width: 150px;
+}
+
 .icon {
   width: max(30px, 3vw);
   height: max(30px, 3vw);
