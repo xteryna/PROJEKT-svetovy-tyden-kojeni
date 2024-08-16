@@ -12,4 +12,4 @@ Předností moderního látkování je především zdraví, pohodlí, ale význ
 
 Představím vám možné varianty a pomůžu sestavit sady na míru vašim potřebám."
 
-[www.kojenisrdcem.cz](www.kojenisrdcem.cz)
+[www.kojenisrdcem.cz](https://www.kojenisrdcem.cz/)
