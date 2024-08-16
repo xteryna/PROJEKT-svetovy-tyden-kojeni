@@ -10,4 +10,4 @@ Období kojení nemusí být časem, který je potřeba přežít. Každým jedn
 
 Dopřejte si ten luxus. Zažijte to! Kojicí móda může být opravdu šik.\
 \
-[www.krasnamamka.cz](www.krasnamamka.cz)
+[www.krasnamamka.cz](https://www.krasnamamka.cz/)
