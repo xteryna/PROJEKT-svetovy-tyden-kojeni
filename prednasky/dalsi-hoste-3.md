@@ -12,4 +12,4 @@ No a pak jsem taky neustále se vzdělávající, lidským tělem a pohybem fasc
 
 Miluji souvislosti a pátrání po příčinách důsledků. Jsem taky přehnaně kreativní a proto mám ráda termíny 😉
 
-[www.fyzioterapiestadlerova.cz](www.fyzioterapiestadlerova.cz)
+[www.fyzioterapiestadlerova.cz](https://www.fyzioterapiestadlerova.cz/)
